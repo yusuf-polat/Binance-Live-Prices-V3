@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Prices TRY</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Prices ₺</h1>
+        <div class="info-div">Total Coins: <span id="info">0</span></div>
+        <div class="search-input">
+            <input type="text" id="search-input" placeholder="Search...">
+          </div>
+        <table id="crypto-table">
+            <thead>
+                <tr>
+                    <th>Sembol</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <tr><td colspan="2">Loading...</td></tr>
+            </tbody>
+        </table>
+        <div id="ad-container">
+          <div id="ad-content">
+            <!-- Reklam içeriği buraya eklenecek -->
+            <img src="https://via.placeholder.com/500x50" alt="Reklam">
+            <!-- /Reklam içeriği -->
+          </div>
+          <div id="ad-close"><span>X</span></div>
+        </div>
+    </div>
+  <script src="content.js"></script>
+</body>
+</html>

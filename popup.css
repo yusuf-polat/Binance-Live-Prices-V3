@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: larger;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #444;
+  border-bottom: 2px solid #ccc;
+}
+tr:hover {
+  background-color: #362222;
+}
+td {
+  border-bottom: 1px solid #ccc;
+}
+
+td:nth-child(1) {
+  font-weight: bold;
+}
+td:nth-child(2) {
+  font-weight: bold;
+}
+td:nth-child(3) {
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+td:nth-child(4) {
+  color: #e74c3c;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-input input[type="text"] {
+  border: none;
+  flex: 1;
+  padding: 5px;
+  font-weight: 600;
+  outline: none;
+
+}
+
+/* Reklam alanı tasarımı */
+#ad-container {
+  position: fixed;
+  display: none;
+  bottom: 0px;
+  width: 500px;
+  height: 50px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+#ad-content {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#ad-container:hover #ad-close{
+opacity: 1;
+}
+/* Reklam alanı kapat butonu */
+
+#ad-close {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #f90000;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 0%;
+}
+
+#ad-close span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info-div {
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+.green {
+  background-color: #2ecc71 !important;
+}
+.red {
+  background-color: #e74c3c !important;
+}
+.defult {
+  background-color: #17170d !important;
+}
+

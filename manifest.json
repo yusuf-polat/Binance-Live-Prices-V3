@@ -1,0 +1,37 @@
+{
+  "name": "Crypto Prices TRY",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Güncel kripto fiyatlarını anlık olarak takip edin, alarm kurun ve piyasa analizleri için gerekli verilere kolayca erişin.",
+  "icons": {
+    "128": "logo.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://www.binance.com/",
+    
+    "https://api.genelpara.com/embed/doviz.json"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.binance.com/*",
+        
+        "https://api.genelpara.com/embed/doviz.json"
+      ],
+      "js": [
+        "content.js",
+        "background.js"
+      ]
+    }
+  ]
+}
