@@ -6,6 +6,7 @@
 <h3>4.Daha Doğru Analiz</h3>
 <h3>5.Tema Renkleri Ve Tasarımı Değişti</h3>
 <h3>6.Artık Kaç Coinin Olduğunu Anlık Olarak Takip Edebileceksiniz</h3>
-<h3>7.Kod Düzenlemeleri Ve Bugların Kaldırılması</h3>
+<h3>7.Reklam Alanı</h3>
+<h3>8.Kod Düzenlemeleri Ve Bugların Kaldırılması</h3>
 
 <h3><a href="https://chrome.google.com/webstore/detail/crypto-prices-try/oocpdgajbpcpipmbbfajiocfpnfhjiec" target="blank">İndir</a></h3>
